@@ -6,8 +6,8 @@ app.config['SECRET_KEY'] = 'mysecret'
 
 socketIo = SocketIO(app, cors_allowed_origins="*")
 
-app.debug = True
-app.host = 'localhost'
+# app.debug = True
+# app.host = 'localhost'
 
 
 @socketIo.on("message")
