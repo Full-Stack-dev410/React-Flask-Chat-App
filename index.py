@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, render_template
 from flask_socketio import SocketIO, send
+import os
 APP_DIR = os.path.abspath(os.path.dirname(__file__))
 STATIC_FOLDER = os.path.join(APP_DIR, '/build') # Where your webpack build output folder is
 TEMPLATE_FOLDER = os.path.join(APP_DIR, '/build') # Where your index.html file is located
