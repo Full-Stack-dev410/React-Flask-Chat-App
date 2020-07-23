@@ -7,9 +7,7 @@ app.config['SECRET_KEY'] = 'mysecret'
 socketIo = SocketIO(app, cors_allowed_origins="*")
 
 # app.debug = True
-# app.host = 'localhost'
-
-
+# app.host = 'localhost'git 
 @socketIo.on("message")
 def handleMessage(msg):
     print(msg)
