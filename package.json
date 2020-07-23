@@ -37,5 +37,5 @@
     "node": "12.16.3",
     "npm": "6.14.4"
   },
-  "proxy": "https://d-r-chatapp.herokuapp.com"
+  "proxy": "http://d-r-chatapp.herokuapp.com"
 }
